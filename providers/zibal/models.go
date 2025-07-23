@@ -12,10 +12,11 @@ type Zibal struct {
 }
 
 type paymentRequest struct {
-	Merchant    string `json:"merchant" validate:"required"`
-	Amount      uint   `json:"amount" validate:"required,min=1000"`
-	CallbackURL string `json:"callbackUrl" validate:"required,url"`
-	Description string `json:"description"`
+	Merchant     string `json:"merchant" validate:"required"`
+	Amount       uint   `json:"amount" validate:"required,min=1000"`
+	CallbackURL  string `json:"callbackUrl" validate:"required,url"`
+	Description  string `json:"description"`
+	NationalCode string `json:"nationalCode,omitempty" `
 }
 
 type PaymentResponse struct {
@@ -34,7 +35,7 @@ type VerificationResponse struct {
 	Amount      int    `json:"amount"`
 	Result      int    `json:"result"`
 	Status      int    `json:"status"`
-	RefNumber   int    `json:"refNumber"`
+	RefNumber   string `json:"refNumber"`
 	Description string `json:"description"`
 	CardNumber  string `json:"cardNumber"`
 	OrderID     string `json:"orderId"`

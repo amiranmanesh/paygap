@@ -36,12 +36,13 @@ func New(client client.Transporter, merchant string) (*Zibal, error) {
 }
 
 // RequestPayment creates a payment request and returns a status code and authority.
-func (z *Zibal) RequestPayment(ctx context.Context, amount uint, callBackUrl, description string) (*PaymentResponse, error) {
+func (z *Zibal) RequestPayment(ctx context.Context, amount uint, callBackUrl, description, nationalCode string) (*PaymentResponse, error) {
 	req := &paymentRequest{
-		Merchant:    z.merchant,
-		Amount:      amount,
-		CallbackURL: callBackUrl,
-		Description: description,
+		Merchant:     z.merchant,
+		Amount:       amount,
+		CallbackURL:  callBackUrl,
+		Description:  description,
+		NationalCode: nationalCode,
 	}
 	if err := z.client.GetValidator().Struct(req); err != nil {
 		return nil, status.New(0, http.StatusBadRequest, codes.InvalidArgument, err.Error())
