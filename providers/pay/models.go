@@ -1,6 +1,6 @@
 package pay
 
-import "github.com/GoFarsi/paygap/client"
+import "github.com/amiranmanesh/paygap/client"
 
 type Pay struct {
 	client client.Transporter

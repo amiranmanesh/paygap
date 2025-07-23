@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoFarsi/paygap/client"
+	"github.com/amiranmanesh/paygap/client"
 )
 
 type Mellat struct {

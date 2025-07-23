@@ -1,6 +1,6 @@
 package Parsian
 
-import "github.com/GoFarsi/paygap/client"
+import "github.com/amiranmanesh/paygap/client"
 
 type Parsian struct {
 	client          client.Transporter

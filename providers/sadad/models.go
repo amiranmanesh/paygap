@@ -1,7 +1,7 @@
 package sadad
 
 import (
-	"github.com/GoFarsi/paygap/client"
+	"github.com/amiranmanesh/paygap/client"
 	"time"
 )
 

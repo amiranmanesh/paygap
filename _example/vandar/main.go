@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/GoFarsi/paygap/client"
-	"github.com/GoFarsi/paygap/providers/vandar"
+	"github.com/amiranmanesh/paygap/client"
+	"github.com/amiranmanesh/paygap/providers/vandar"
 )
 
 func main() {

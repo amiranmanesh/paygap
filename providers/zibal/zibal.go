@@ -2,8 +2,8 @@ package zibal
 
 import (
 	"context"
-	"github.com/GoFarsi/paygap/client"
-	"github.com/GoFarsi/paygap/status"
+	"github.com/amiranmanesh/paygap/client"
+	"github.com/amiranmanesh/paygap/status"
 	"net/http"
 
 	"google.golang.org/grpc/codes"

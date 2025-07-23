@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/GoFarsi/paygap/client"
-	"github.com/GoFarsi/paygap/providers/mellat"
+	"github.com/amiranmanesh/paygap/client"
+	"github.com/amiranmanesh/paygap/providers/mellat"
 )
 
 func main() {

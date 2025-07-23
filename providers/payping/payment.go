@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/GoFarsi/paygap/status"
+	"github.com/amiranmanesh/paygap/status"
 	"google.golang.org/grpc/codes"
 )
 

@@ -1,6 +1,6 @@
 package zarinpal
 
-import "github.com/GoFarsi/paygap/client"
+import "github.com/amiranmanesh/paygap/client"
 
 type Zarinpal struct {
 	client     client.Transporter

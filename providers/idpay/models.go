@@ -1,6 +1,6 @@
 package idpay
 
-import "github.com/GoFarsi/paygap/client"
+import "github.com/amiranmanesh/paygap/client"
 
 type IdPay struct {
 	client  client.Transporter

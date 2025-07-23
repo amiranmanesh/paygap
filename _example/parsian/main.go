@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/GoFarsi/paygap/client"
-	"github.com/GoFarsi/paygap/providers/Parsian"
+	"github.com/amiranmanesh/paygap/client"
+	"github.com/amiranmanesh/paygap/providers/Parsian"
 	"log"
 )
 

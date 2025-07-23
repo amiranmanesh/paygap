@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"github.com/GoFarsi/paygap/client"
-	"github.com/GoFarsi/paygap/providers/zibal"
+	"github.com/amiranmanesh/paygap/client"
+	"github.com/amiranmanesh/paygap/providers/zibal"
 	"log"
 )
 

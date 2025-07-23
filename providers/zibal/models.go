@@ -1,6 +1,6 @@
 package zibal
 
-import "github.com/GoFarsi/paygap/client"
+import "github.com/amiranmanesh/paygap/client"
 
 type Zibal struct {
 	client   client.Transporter

@@ -3,8 +3,8 @@ package pay
 import (
 	"context"
 	"errors"
-	"github.com/GoFarsi/paygap/client"
-	"github.com/GoFarsi/paygap/status"
+	"github.com/amiranmanesh/paygap/client"
+	"github.com/amiranmanesh/paygap/status"
 	"google.golang.org/grpc/codes"
 	"net/http"
 	"reflect"

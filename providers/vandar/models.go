@@ -1,6 +1,6 @@
 package vandar
 
-import "github.com/GoFarsi/paygap/client"
+import "github.com/amiranmanesh/paygap/client"
 
 type Vandar struct {
 	client client.Transporter
