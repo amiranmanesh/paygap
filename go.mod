@@ -1,6 +1,6 @@
 module github.com/amiranmanesh/paygap
 
-go 1.19
+go 1.24
 
 require (
 	github.com/andreburgaud/crypt2go v1.3.1

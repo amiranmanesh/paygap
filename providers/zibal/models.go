@@ -16,7 +16,6 @@ type paymentRequest struct {
 	Amount       uint   `json:"amount" validate:"required,min=1000"`
 	CallbackURL  string `json:"callbackUrl" validate:"required,url"`
 	Description  string `json:"description"`
-	NationalCode string `json:"nationalCode,omitempty" `
 }
 
 type PaymentResponse struct {
